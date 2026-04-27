@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 110px;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: white;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  image-rendering: auto;
+  object-fit: cover;
+}
+
+::selection {
+  background: #dc2626;
+  color: white;
+}
