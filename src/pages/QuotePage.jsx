@@ -55,7 +55,7 @@ export default function QuotePage() {
     try {
       setLoading(true);
 
-      const response = await fetch("http://localhost:4000/api/cotizacion", {
+      const response = await fetch("https://roccos-backend.onrender.com/api/cotizacion", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
